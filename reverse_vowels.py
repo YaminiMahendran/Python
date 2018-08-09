@@ -16,7 +16,6 @@ class Solution(object):
                 i -= 1
         revvowels =''.join(final)
         return revvowels
-
+    
 s=Solution()
-print(s.reverseVowels('Leetcode'))
-        
+print(s.reverseVowels('Mappye'))
