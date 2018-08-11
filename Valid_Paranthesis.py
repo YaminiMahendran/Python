@@ -9,8 +9,6 @@ class Solution:
     def isValid(self, s):
         my_list=[]
         for each in s:
-            if(len(s)==1):
-                return False
             if each=='(' or each=='[' or each =='{':
                 my_list.append(each)
             elif each==')' or each==']' or each =='}':
@@ -34,4 +32,4 @@ class Solution:
         
 
 s=Solution()
-print(s.isValid('{}[]()'))
+print(s.isValid('{'))
