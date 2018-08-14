@@ -20,7 +20,7 @@ class MyStack:
         :rtype: void
         """
         self.queue.enqueue(x)
-        for i in range(0,self.queue.size()):
+        for i in range(0,self.queue.size()):#for each push rotate the queue
             self.queue.enqueue(self.queue.dequeue())
 
     def pop(self):
