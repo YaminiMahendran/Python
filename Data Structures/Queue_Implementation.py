@@ -29,5 +29,8 @@ class Queue():
     
     def display(self):
         return self.my_queue
+    
+    def peek(self):
+        return self.my_queue[-1]
         
         

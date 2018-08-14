@@ -9,6 +9,7 @@ class Solution:
                 new[no] = 1
         l1=list(new.keys())
         l2=list(new.values())
+        print(l1,l2)
         new_dict= dict(zip(l2,l1))
         max_no= max(l2)
         if max_no > n:

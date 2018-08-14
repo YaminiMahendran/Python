@@ -11,7 +11,7 @@ class Solution(object):
                 t_dict[each] = t_dict.get(each,0) +1
             else:
                 new += each
-        #print (t_dict,s_dict,new)
+        print (t_dict,s_dict,new)
         for each in t_dict:
             if t_dict[each] !=s_dict[each]:
                 new += each

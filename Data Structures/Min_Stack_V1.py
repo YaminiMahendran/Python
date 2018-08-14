@@ -4,14 +4,14 @@ Created on Fri Aug 10 22:29:47 2018
 
 @author: yamini
 
+Returns the minimum number in the stack after each push or pop
+
 """
 class MinStack:
 
     def __init__(self):
         self.stack=[]
         self.min=float('inf')
-
-        
 
     def push(self, x):
         if len(self.stack)==0:
@@ -22,9 +22,7 @@ class MinStack:
             if (x)<self.min:
                 self.stack.append(self.min)
                 self.min=x
-                self.stack.append(self.min)
-            else:
-                self.stack.append(x)
+            self.stack.append(x)
     
     def display(self):
         return self.stack 

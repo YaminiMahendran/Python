@@ -9,9 +9,12 @@ class Solution(object):
                 new_word.append(each + 'ma')
             else:
                 new_word.append(each[1:] +each[0]+'ma')
-        print new_word
+        print (new_word)
         i=1
         for i,word in enumerate(new_word):
             final += word + 'a' * (i+1) +' '
         final=final.rstrip()
         return final
+
+s=Solution()
+print(s.toGoatLatin("I love goat latin"))
