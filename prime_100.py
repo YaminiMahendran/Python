@@ -21,4 +21,5 @@ while(no >=1):
         no -= 1
     else:
         no -= 1
+l.sort()
 print("List of prime numbers are :" ,l)

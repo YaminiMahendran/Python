@@ -1,0 +1,9 @@
+Balancing Paranthesis -done
+evaluate Infix operators and expressions
+Infix to postfix using stack
+sort a stack
+queue using stack -done
+stack using queue
+Implement Min stack -  done
+next greater element
+reverse a stack 
