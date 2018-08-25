@@ -5,10 +5,16 @@ Created on Fri Aug 24 19:27:57 2018
 @author: yamini
 
 """
-def deleteDuplicates(self, head):
-    cur = head
-    while cur:
-        while cur.next and cur.next.val == cur.val:
-            cur.next = cur.next.next     # skip duplicated node
-        cur = cur.next     # not duplicate of current node, move to next node
-    return head
+    def deleteDuplicates(self, head):
+        if head == None:
+            return head
+            
+        node = head
+        
+        while node.next:
+            if node.val == node.next.val:
+                node.next = node.next.next
+            else:
+                node = node.next
+                
+        return head
