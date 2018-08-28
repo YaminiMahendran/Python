@@ -7,6 +7,8 @@ Created on Tue Aug 28 11:57:22 2018
 """
 class Solution(object):
     def findLengthOfLCIS(self, nums):
+        if not nums:
+            return 0
         prev =nums[0]
         cur = 1
         tot = 1
