@@ -7,7 +7,10 @@ class Solution:
             Reverse = (Reverse *10) + Reminder
             x = x //10
         y=Reverse
+        print (y)
         if(y==z):
             return True
         else:
             return False
+s=Solution()
+print(s.isPalindrome(12))
