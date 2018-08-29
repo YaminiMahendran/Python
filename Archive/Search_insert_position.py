@@ -16,11 +16,6 @@ class Solution:
             if len(new)!=0:
                 return nums.index(new[0])
 
-            
-                
-            
-        
-        
-        
+
 s=Solution()
 print(s.searchInsert([1,3,5,6],0))
