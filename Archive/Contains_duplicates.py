@@ -1,5 +1,6 @@
 class Solution:
     def containsDuplicate(self, nums):
+        
         new=[]
         dup=[]
         for each in nums:
@@ -12,5 +13,7 @@ class Solution:
         else:
             return False
         
+                
+        
 s=Solution()
-print (s.containsDuplicate([]))
+print (s.containsDuplicate([1,2]))
