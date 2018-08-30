@@ -9,9 +9,15 @@ class Solution(object):
     def findTheDifference(self, s, t):
         return [i for i in t if i not in s or s.count(i)!=t.count(i)][0]#it will print [a,a] in that 0th position is a
         """
-        for i in t:
-            if i not in s or s.count(i)!=t.count(i):
-                return i
+        def findTheDifference(self, s, t):
+        dic = {}
+        for ch in s:
+            dic[ch] = dic.get(ch, 0) + 1
+        for ch in t:
+            if dic.get(ch, 0) == 0:
+                return ch
+            else:
+                dic[ch] -= 1
         """
         
         
