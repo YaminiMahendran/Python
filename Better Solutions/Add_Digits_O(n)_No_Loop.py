@@ -15,4 +15,4 @@ class Solution(object):
              return num%9
          
 s=Solution()
-print(s.addDigits(99))
+print(s.addDigits(17))

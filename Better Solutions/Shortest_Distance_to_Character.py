@@ -12,8 +12,10 @@ class Solution:
         for i,no in enumerate(S):
             if no==C:
                 new.append(i)
+        print(new)
         for i in range(len(S)):
             final.append(min([abs(j-i) for j in new]))
+            print(final)
         return final
                  
         

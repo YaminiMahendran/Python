@@ -12,7 +12,7 @@ class Solution:
         for letter in s:
             dict1[letter] =dict1.get(letter,0) + 1
         sorted_dict = sorted(dict1.items(),key=operator.itemgetter(1) ,reverse=True)
-        #print(sorted_dict)
+        print(sorted_dict)
         for ltr in sorted_dict:
             l1 += ltr[0] * ltr[1]
         return(l1)
@@ -20,4 +20,4 @@ class Solution:
             
 
 s=Solution()
-print(s.frequencySort("aaaccc"))
+print(s.frequencySort("aaccc"))
