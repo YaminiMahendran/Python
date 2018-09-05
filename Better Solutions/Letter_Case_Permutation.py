@@ -12,7 +12,7 @@ class Solution(object):
         :rtype: List[str]
         """
         S = list(S)
-        solutions = ['']
+        solutions =['']
         while S:
             last = S.pop()
             if last.isalpha():
