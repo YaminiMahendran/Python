@@ -18,4 +18,4 @@ class Solution:
             
 
 s=Solution()
-print(s.firstUniqChar("loveleetcode"))
+print(s.firstUniqChar("leetcodelove"))

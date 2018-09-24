@@ -15,8 +15,8 @@ class Solution(object):
         for each in nums:
             if each == 1:
                 count +=1
-            else:
                 max1=max(count,max1)
+            else:
                 count=0
                 
         return max1
@@ -24,5 +24,5 @@ class Solution(object):
                 
     
 s=Solution()
-print(s.findMaxConsecutiveOnes([1,0,0,1,1,0,1,1,1,1,0,1]))
+print(s.findMaxConsecutiveOnes([1,0,0,1,1,0,1,1,0,1]))
 

@@ -10,7 +10,7 @@ class Solution:
         morse_alphabets = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
         eng_morse_map = dict(zip("abcdefghijklmnopqrstuvwxyz", morse_alphabets ))
         
-        s=""
+        
         l=set()
         for word in words:
             s=""

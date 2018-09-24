@@ -12,6 +12,5 @@ class Solution:
             if target - no in dict:
                 return [dict[target-no],i]
             dict[no] = i
-                
 s=Solution()
 print(s.twoSum([2, 7, 11, 15],9))

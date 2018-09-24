@@ -10,6 +10,7 @@ class Solution:
     def convertToTitle(self, num):
         capitals = [chr(x) for x in range(ord('A'), ord('Z')+1)]
         result = []
+        print (capitals)
         while num > 0:
             result.insert(0,capitals[(num-1)%26])
             num = (num-1) // 26
